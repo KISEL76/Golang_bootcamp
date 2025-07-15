@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package frequency;
+
+option go_package = "./frequencypb";
+
+import "google/protobuf/empty.proto";
+
+message FrequencyEntry {
+  string session_id = 1;
+  double frequency = 2;
+  int64 timestamp = 3;
+}
+
+service FrequencyService {
+  rpc StreamFrequencies(google.protobuf.Empty) returns (stream FrequencyEntry);
+}

@@ -1,0 +1,14 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 55432,
+            "driver": "PostgreSQL",
+            "name": "localhost",
+            "database": "anomalies_db",
+            "username": "postgres",
+            "password": "qwerty"
+        }
+    ]
+}
