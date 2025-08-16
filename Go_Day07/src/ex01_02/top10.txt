@@ -1,0 +1,10 @@
+     1.41s 61.84% 61.84%      1.41s 61.84%  runtime.kevent
+     0.20s  8.77% 70.61%      0.20s  8.77%  runtime.asyncPreempt
+     0.16s  7.02% 77.63%      0.16s  7.02%  runtime.pthread_cond_wait
+     0.14s  6.14% 83.77%      0.37s 16.23%  ex01.minCoins2
+     0.14s  6.14% 89.91%      0.14s  6.14%  runtime.pthread_kill
+     0.06s  2.63% 92.54%      0.06s  2.63%  runtime.madvise
+     0.03s  1.32% 93.86%      0.03s  1.32%  runtime.pthread_cond_timedwait_relative_np
+     0.03s  1.32% 95.18%      0.03s  1.32%  runtime.usleep
+     0.02s  0.88% 96.05%      0.02s  0.88%  runtime.pthread_cond_signal
+     0.01s  0.44% 96.49%      0.02s  0.88%  runtime.mallocgc
